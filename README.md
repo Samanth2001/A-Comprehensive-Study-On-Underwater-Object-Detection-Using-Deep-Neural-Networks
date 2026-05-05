@@ -179,7 +179,7 @@ This work is based on an IEEE Access publication:
 
 **"A Comprehensive Study on Underwater Object Detection Using Deep Neural Networks"**
 
-> Add paper link here (IEEE / DOI)
+> Paper Link: (https://ieeexplore.ieee.org/document/11027096)
 
 ---
 
