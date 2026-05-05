@@ -15,7 +15,7 @@ The data.yaml file defines the dataset structure, class information, and file pa
 * * 0 → trash * 1 → animal * 2 → rov * and 3 → plant
     
 ###  Example data.yaml
-path: datasets/yolo_v8/C3 or C4
+path: datasets/yolo_v8 or v9/C3 or C4
 
 train: images/train
 val: images/val
