@@ -1,0 +1,10 @@
+# yolov9_C3.yaml
+path: datasets/yolo_v9/C3
+
+train: images/train
+val: images/val
+test: images/test
+
+nc: 3
+
+names: ['animal', 'rov', 'trash']
