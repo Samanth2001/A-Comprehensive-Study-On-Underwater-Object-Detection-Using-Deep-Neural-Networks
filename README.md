@@ -202,12 +202,17 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 If you use this work, please cite:
 
 ```bibtex
-@article{yourpaper2025,
-  title={A Comprehensive Study on Underwater Object Detection Using Deep Neural Networks},
-  author={Samanth, K. et al.},
-  journal={IEEE Access},
-  year={2025}
-}
+@ARTICLE{11027096,
+  author={Samanth, K. and Ramyashree, Ramyashree and Anoop, B. N. and Raghavendra, S.},
+  journal={IEEE Access}, 
+  title={A Comprehensive Study On Underwater Object Detection Using Deep Neural Networks}, 
+  year={2025},
+  volume={13},
+  number={},
+  pages={99446-99464},
+  keywords={Biological system modeling;Accuracy;Oceans;Real-time systems;Feature extraction;Deep learning;YOLO;Training;Computational modeling;Adaptation models;Autonomous underwater vehicles;deep learning;marine waste detection;underwater object detection;YOLOv8;YOLOv9},
+  doi={10.1109/ACCESS.2025.3577239}}
+
 ```
 
 ---
