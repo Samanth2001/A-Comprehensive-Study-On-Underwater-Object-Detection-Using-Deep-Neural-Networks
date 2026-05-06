@@ -5,19 +5,19 @@
 All images are labeled using the standard YOLO format:
 
 <class_id> <x_center> <y_center> <width> <height>
-Coordinates are normalized (range: 0 to 1)
-Bounding boxes represent object localization for detection tasks
+* Coordinates are normalized (range: 0 to 1)
+* Bounding boxes represent object localization for detection tasks
 
 🔹 Pre-processing Pipeline
 
 The following preprocessing steps were applied uniformly across all images:
 
-Auto-Orientation
-Corrected image orientation using EXIF metadata
-Removed EXIF orientation flags to ensure consistency
-Resizing
-All images resized to 640 × 640 resolution
-Applied letterbox resizing (fit with padding)
+1. Auto-Orientation
+* Corrected image orientation using EXIF metadata
+* Removed EXIF orientation flags to ensure consistency
+2. Resizing
+* All images resized to 640 × 640 resolution
+* Applied letterbox resizing (fit with padding)
 Preserved aspect ratio with black padding where necessary
 
 The data.yaml file defines the dataset structure, class information, and file paths required for training YOLO models. Separate configurations are maintained for the **3-class (C3)** and **4-class (C4)** datasets.
