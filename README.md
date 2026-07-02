@@ -119,8 +119,11 @@ Underwater-Object-Detection/
 │        ├── C4
 │
 ├── models/
-│   ├── yolov8/
-│   ├── yolov9/
+│   ├── Cascade Mask RCNN
+│   ├── Faster RCNN
+│   ├── Mask RCNN
+│   ├── YoloV8
+│   ├── YoloV9
 │
 ├── configs/
 │   ├── yolov8/
