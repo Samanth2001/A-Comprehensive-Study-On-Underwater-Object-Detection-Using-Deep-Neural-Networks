@@ -43,5 +43,5 @@ test: images/test
 
 nc: 3 or 4
 
-names: ['trash', 'animal', 'rov', and 'plant']
+names: ['trash','animal','rov', and 'plant']
  
