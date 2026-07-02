@@ -32,10 +32,13 @@ The data.yaml file defines the dataset structure, class information, and file pa
 * **nc (number of classes)** Set to 3 for the C3 dataset and Set to 4 for the C4 dataset.
 * **names** List of class labels in order.
 * The index of each class corresponds to the class ID in label files:
-* * 0 → trash * 1 → animal * 2 → rov * and 3 → plant
+* 0 → trash
+* 1 → animal 
+* 2 → rov 
+* 3 → plant
     
 ###  Example data.yaml
-path: datasets/yolo_v8 or v9/C3 or C4
+path: Dataset/YoloV8 or V9/C3 or C4
 
 train: images/train
 val: images/val
@@ -43,5 +46,5 @@ test: images/test
 
 nc: 3 or 4
 
-names: ['trash','animal','rov', and 'plant']
+names: ['trash', 'animal', 'rov', and 'plant']
  
