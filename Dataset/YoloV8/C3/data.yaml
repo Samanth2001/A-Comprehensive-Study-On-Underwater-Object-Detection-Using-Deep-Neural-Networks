@@ -1,0 +1,13 @@
+train: D:/C_V8/train/images
+val: D:/C_V8/valid/images
+test: D:/C_V8/test/images
+
+nc: 3
+names: ['animal', 'rov', 'trash']
+
+roboflow:
+  workspace: yolo-x1ztt
+  project: trashcan-dataset-qusx5
+  version: 10
+  license: MIT
+  url: https://universe.roboflow.com/yolo-x1ztt/trashcan-dataset-qusx5/dataset/10
