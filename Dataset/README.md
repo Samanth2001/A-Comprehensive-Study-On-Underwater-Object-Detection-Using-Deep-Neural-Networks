@@ -41,7 +41,9 @@ The data.yaml file defines the dataset structure, class information, and file pa
 path: Dataset/YoloV8 or V9/C3 or C4
 
 train: images/train
+
 val: images/val
+
 test: images/test
 
 nc: 3 or 4
