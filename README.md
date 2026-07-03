@@ -110,36 +110,27 @@ A total of **32 experimental configurations** were conducted:
 ```
 Underwater-Object-Detection/
 │
-├── datasets/
-│   ├── yolov8/
+├── Dataset/
+│   ├── YoloV8/
 │        ├── C3
 │        ├── C4
-│   ├── yolov9/
+│   ├── YoloV9/
 │        ├── C3
 │        ├── C4
 │
-├── models/
+├── Models/
 │   ├── Cascade Mask RCNN
 │   ├── Faster RCNN
 │   ├── Mask RCNN
 │   ├── YoloV8
 │   ├── YoloV9
 │
-├── configs/
-│   ├── yolov8/
-│   ├── yolov9/
+├── Results/
+│   ├── Predictions
+│   ├── Plots
 │
-├── results/
-│   ├── tables/
-│   ├── plots/
-│   ├── predictions/
 │
-├── scripts/
-│   ├── train.py
-│   ├── evaluate.py
-│   ├── inference.py
-│
-├── paper/
+├── Paper/
 │   └── IEEE_Access_Paper.pdf
 │
 └── README.md
