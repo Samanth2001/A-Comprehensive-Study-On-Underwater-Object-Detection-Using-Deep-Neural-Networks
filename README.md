@@ -138,28 +138,6 @@ Underwater-Object-Detection/
 
 ---
 
-## How to Run
-
-### 🔹 Training Example
-
-```bash
-python scripts/train.py --model yolov8m --dataset C3 --lr 0.01
-```
-
-### 🔹 Evaluation
-
-```bash
-python scripts/evaluate.py
-```
-
-### 🔹 Inference
-
-```bash
-python scripts/inference.py
-```
-
----
-
 ## Results & Outputs
 
 The repository includes:
